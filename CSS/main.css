@@ -1,0 +1,62 @@
+@import url(./bootstrap.min.css);
+
+/*
+    # id
+    . classe
+    h1#exemplo -> h1 com id exemplo
+    ou só #exemplo
+
+    : pseudoclasse -> estado de elementos (exemplo hover, quando passar mouse em cima...)
+    :: pseudoelemento -> conteudo do elemento (exemplo after, add algo depois)
+
+    > filho -> (div > p - paragrafo filho de uma div)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar_header{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+#logo{
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+    width: 50px;  
+    height: 50px;
+}
+
+table {
+    position: relative;
+}
+
+thead > tr {
+    position: sticky;
+    top: 0;
+    background-color: darkgrey;
+}
+
+/*
+^^ ?
+#container{
+    overflow-x: auto;
+}
+
+table > tbody > tr > td {
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }*/
+
+  @media (prefers-color-scheme: dark) {
+  
+  }
